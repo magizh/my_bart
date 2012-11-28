@@ -15,7 +15,7 @@
 
 ### Deploy your app on [Cloud Foundry](http://www.cloudfoundry.com/)
 
-* [Fork the app](https://github.com/mahil/my_bart/fork_select) 
+* [Fork the app](https://github.com/magizh/my_bart/fork_select) 
 
 ```ruby
 git clone git@github.com:<your_name>/my_bart.git my_bart
