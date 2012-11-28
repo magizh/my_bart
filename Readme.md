@@ -2,7 +2,10 @@
 
      This is a simple rails app that uses Bart API and gives you the list of trains to workplace/home
      depending on the time of the day. Fork the app and make your own customizations :) 
-    
+
+![Snapshot](public/sh.png)
+
+
 ### The app uses 
 
 * The app uses [Bart API](http://api.bart.gov/docs/overview/index.aspx) to get real time schedules
