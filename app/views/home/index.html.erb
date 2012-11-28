@@ -1,0 +1,36 @@
+<div class="container-fluid row-fluid">
+	<div class="span8 offset2">
+	<h4 class="pull-right">Time now: <%= @pst %></h4>
+	<% if @is_noon %>
+	<h1>Trains to home </h1>
+	<%else%>
+	<h1>Trains to office </h1>
+	<% end %>
+<table class="table" style="background:ghostwhite;">
+
+	<thead>
+    <tr>
+      <th>#</th>
+      <th> Destination </th>
+      <th>Arrives in </th>
+      <th>Platform</th>
+    </tr>
+  </thead>
+	
+	<% c=1 %>
+	<% @links.each do |l| %>
+	  <% if l.present? %>
+		  <tr style="color:<%=l['hex']%>;">
+				<td><%= c %></td>
+				<td><%= l['destination'] %></td>
+				<td><%= l['minutes'] %> mins </td>
+				<td><%= l['plat'] %></td>
+			</tr>
+			<% c= c+1;%>
+		<% end %>
+	<% end %>
+
+</table>
+
+</div>
+</div>
