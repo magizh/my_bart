@@ -9,7 +9,7 @@
 ### The app uses 
 
 * The app uses [Bart API](http://api.bart.gov/docs/overview/index.aspx) to get real time schedules
-* It uses the nokogiri gem to parse the XML 
+* It uses the [nokogiri](http://nokogiri.org/) gem to parse the XML 
 * [Bootstrap](http://twitter.github.com/bootstrap/index.html) to make it responsive :)
 
 
