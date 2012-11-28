@@ -20,11 +20,18 @@
 	<% c=1 %>
 	<% @links.each do |l| %>
 	  <% if l.present? %>
-		  <tr style="color:<%=l['hex']%>;">
+		  <tr>
 				<td><%= c %></td>
 				<td><%= l['destination'] %></td>
 				<td><%= l['minutes'] %> mins </td>
-				<td><%= l['plat'] %></td>
+				<td style="background:<%=l['hex']%>;
+    							display: inline-block;
+    							-webkit-border-radius: 9px; -moz-border-radius: 1px; 
+    							border-radius: 12px;
+    							color: #fff;
+    							padding: 0px 6px;
+    							margin: 5px 0px 0px 30px;
+    							"><%= l['plat'] %></td>
 			</tr>
 			<% c= c+1;%>
 		<% end %>
