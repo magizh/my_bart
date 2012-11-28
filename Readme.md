@@ -3,7 +3,7 @@
      This is a simple rails app that uses Bart API and gives you the list of trains to workplace/home
      depending on the time of the day. Fork the app and make your own customizations :) 
 
-![Snapshot](/public/sh.png)
+![Snapshot](https://presvo.s3.amazonaws.com/small_Screen_Shot_2012-11-28_at_2.09.31_AM.png)
 
 
 ### The app uses 
